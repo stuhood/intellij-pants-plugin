@@ -17,8 +17,6 @@
 
   <idea-version since-build="173.0" until-build="173.*"/>
 
-  <!--Scala plugin related extensions-->
-  <depends>org.intellij.scala</depends>
   <!--Add gradle as a dep because of Pants runner requires it.-->
   <depends>org.jetbrains.plugins.gradle</depends>
   <extensions defaultExtensionNs="com.intellij.plugins.pants">
